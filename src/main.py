@@ -61,7 +61,7 @@ def verificar_estado():
         timer.deinit()
         timer_ativo = False
         pecas += 1
-        print("Peca detectada! Total: ", pecas)
+        print("Peca detectada! Total:", pecas)
         
 
 # ISR do timer de luminosidade
