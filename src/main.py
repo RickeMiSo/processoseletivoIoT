@@ -49,7 +49,7 @@ def verificar_estado():
     # com um tempo de 4 segundos.
     if luminosidade_baixa and not timer_ativo:
         timer.init(
-            period = 4000,
+            period = 5000,
             mode = Timer.ONE_SHOT,
             callback = timer_handler
         )
